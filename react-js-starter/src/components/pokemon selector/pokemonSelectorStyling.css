@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Londrina+Outline&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.appTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.center-text { 
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+}
+
+.left-content,.right-content {
+    flex-basis: 50%;
+}
+
+.left-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+    grid-gap: 1rem;
+}
+
+.card {
+    width: 200px;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+
+.right-content {
+    width: 50%;
+    text-align: center;
+    position: fixed;
+    top: 250px;
+    right: 10px;
+}
+
+.right-content img {
+    margin: 1.5rem;
+    height: 150px;
+}
+
+.right-content h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.type {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.type .group {
+    padding: 0.5rem;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.searchbar {
+	display: flex;
+	align-items: center;
+	margin: 0 10px 0 10px;
+}
+
+.searchbar input {
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+	border: none;
+	width: 100%;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.searchbar input:focus {
+	outline: none;
+}
